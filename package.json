@@ -1,0 +1,29 @@
+{
+  "name": "formula1-minimal-api",
+  "version": "1.0.0",
+  "description": "Minimal Fastify API for Formula 1 data with CRUD operations",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "test": "tsx --test src/**/*.test.ts"
+  },
+  "keywords": [
+    "fastify",
+    "node",
+    "formula1",
+    "api",
+    "crud",
+    "typescript"
+  ],
+  "author": "Rogerio Souza",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@types/node": "^22.20.1",
+    "fastify": "^4.29.1",
+    "tsx": "^4.23.12",
+    "typescript": "^5.9.3"
+  }
+}
